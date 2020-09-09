@@ -6,6 +6,7 @@
     ],
     "license": "MIT",
     "require": {
+        "php": "^7.2",
         "symfony/event-dispatcher-contracts": "^2.0",
         "psr/event-dispatcher": "^1.0"
     },
