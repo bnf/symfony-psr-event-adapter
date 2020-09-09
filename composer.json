@@ -1,16 +1,8 @@
 {
     "name": "bnf/symfony-psr-event-adapter",
-    "description": "Adapter for Symfony Event DispatcherDependency injection container with PSR-11 and container-interop/service-provider support",
+    "description": "Adapter for Symfony Event Dispatcher Contracts to use a PSR-14 Event Dispatcher as backend",
     "keywords": [
         "psr-14"
-    ],
-    "authors": [
-        {
-            "name": "Benjamin Franzke",
-            "email": "benjaminfranzke@gmail.com",
-            "role": "Developer",
-            "homepage": "https://bnfr.net"
-        }
     ],
     "license": "GPL-2.0+",
     "require": {
