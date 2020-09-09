@@ -4,7 +4,7 @@
     "keywords": [
         "psr-14"
     ],
-    "license": "GPL-2.0-or-later",
+    "license": "MIT",
     "require": {
         "symfony/event-dispatcher-contracts": "^2.0",
         "psr/event-dispatcher": "^1.0"
