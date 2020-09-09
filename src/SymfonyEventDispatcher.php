@@ -35,7 +35,7 @@ final class SymfonyEventDispatcher implements SymfonyEventDispatcherInterface
     /**
      * @inheritdoc
      */
-    public function dispatch($event)
+    public function dispatch(object $event, string $eventName = null): object
     {
         return $this->eventDispatcher->dispatch($event);
     }
